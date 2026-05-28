@@ -73,7 +73,7 @@ PLOT_PATH      = OUTPUT_DIR / 'sismograma.png'   # imagen del sismograma actual
 TICKET_PATH    = OUTPUT_DIR / 'ticket.png'        # imagen para imprimir
 WEB_STATIC_DIR = Path('webapp/static')            # carpeta publica accesible desde el navegador
 
-# Archivo de sonido de alarma sismica (coloca el .mp3 junto al script)
+# Archivo de sonido de alarma sismica 
 AUDIO_ALARMA   = Path('alarma_sismica.mp3')        # sonido que suena al detectar un evento
 
 # Parametros del algoritmo de deteccion de eventos sismicos (STA/LTA)
