@@ -105,7 +105,7 @@ PRINTER_WIDTH_PX = 384
 # El geofono del RS1D genera aproximadamente 1,500,000,000 cuentas por cada m/s de movimiento
 # Esto permite convertir los datos crudos a nanometros/segundo (nm/s) para la grafica
 SENSITIVITY = 1.5e9   # cuentas / (m/s)
-RENDER_URL = 'https://TU-NOMBRE-EN-RENDER.onrender.com'
+RENDER_URL = 'https://raspberry-shake-project-fmdr.onrender.com'
 URL_PUBLICA = RENDER_URL
 # ══════════════════════════════════════════════════════════════════════════════
 #  ESTADO GLOBAL - Variables compartidas entre los hilos de ejecucion
