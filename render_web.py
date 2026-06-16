@@ -189,9 +189,15 @@ HTML = """
 
   <div class="explicacion">
     <h3>Cómo funciona el RS1D</h3>
-    <p>El RS1D contiene un <span class="dato">geófono</span> que mide la velocidad del suelo
-    en nanómetros por segundo (nm/s). Esta señal es procesada en la laptop local de investigación
-    y enviada a este servidor en la nube cada 5 segundos cuando hay conexión disponible.</p>
+    <p>El RS1D contiene un <span class="dato">geofono</span>, un sensor de velocidad que funciona
+      como un microfono de la Tierra. Dentro hay una bobina suspendida sobre un iman por un resorte.
+      Cuando el suelo se mueve, la bobina se desplaza y genera una señal electrica proporcional a la
+      <span class="dato">velocidad del suelo</span> en nanometros por segundo (nm/s).
+      Esta señal es digitalizada a <span class="dato">100 muestras por segundo</span>.
+      El eje horizontal es el tiempo en segundos y el vertical la velocidad en nm/s.
+      El sistema detecta eventos comparando la energia en una ventana corta de
+      <span class="dato">1 segundo</span> vs una larga de <span class="dato">10 segundos</span>
+      (algoritmo STA/LTA). Detecta sismos, trafico, personas caminando y cualquier vibracion.</p>
   </div>
 
   <button class="btn" id="btn" onclick="descargarTicket()">Descargar Ticket</button>
