@@ -196,9 +196,9 @@ HTML = """
     <p>
       El RS1D contiene un <span class="dato">geofono</span>, un sensor de velocidad que funciona
       como un microfono de la Tierra. Dentro hay una bobina suspendida sobre un iman por un resorte.
-      Cuando el suelo se mueve, la bobina se desplaza y genera una senal electrica proporcional a la
+      Cuando el suelo se mueve, la bobina se desplaza y genera una señal electrica proporcional a la
       <span class="dato">velocidad del suelo</span> en nanometros por segundo (nm/s).
-      Esta senal es digitalizada a <span class="dato">100 muestras por segundo</span> y enviada
+      Esta señal es digitalizada a <span class="dato">100 muestras por segundo</span> y enviada
       a este servidor cada 5 segundos desde la laptop de investigacion en ENES Morelia.
     </p>
   </div>
