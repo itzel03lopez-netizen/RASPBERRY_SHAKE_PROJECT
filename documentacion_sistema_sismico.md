@@ -2,7 +2,7 @@
 
 **Proyecto:** Sismógrafo portátil para divulgación científica  
 **Estación:** AM.R087B.00 — Raspberry Shake RS1D  
-**Autores:** Geociencias ENES Morelia, UNAM  
+**Autores:** Itzel Rojas López, Geociencias ENES Morelia, UNAM  
 **Fecha:** Mayo 2026  
 
 ---
@@ -620,5 +620,5 @@ logos/logo_geociencias.png
 
 ---
 
-*Geociencias ENES Morelia — Universidad Nacional Autónoma de México*  
+*Itzel Rojas López, Geociencias ENES Morelia — Universidad Nacional Autónoma de México*  
 *Sistema desarrollado para divulgación científica de fenómenos sísmicos*
